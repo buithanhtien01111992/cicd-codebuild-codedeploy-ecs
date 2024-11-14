@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     const albIp = req.socket.remoteAddress;
     const containerIp = req.socket.localAddress;
     const containerName = os.hostname();
-    console.log('Hello Amazon ECS + CICD from Minhhn Version 2');
+    console.log('Hello Amazon ECS + CICD from Minhhn Version 3');
     res.json({
         serviceName: 'Hello everyone, how are you to day??',
         contact: 'study-aws@gmail.com',
